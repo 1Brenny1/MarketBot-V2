@@ -22,7 +22,7 @@ class Info(commands.Cog):
         embed.title = "Info"
         embed.description = "A simple discord bot for the DevPortal discord server\n\n**Made By:** Brenny#8775 @ Brenny.tk"
 
-        ctx.response.send_message()
+        await ctx.response.send_message(embed=embed)
         
 
 async def setup(Client):
